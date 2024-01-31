@@ -1,0 +1,1150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JPR Exports</title>
+
+    <!--------------------favicon------------------------------>
+    <link rel="icon" href="Images/Logo/logo jpr.png">
+
+    <!-------------------------Bootstrap link----------------------------------->
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+
+
+    <!-----------------------------fontawesome elements----------------------------------------->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-------------------------CSS Elements----------------------------------------->
+
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/contact.css">
+
+    <link rel="stylesheet" href="CSS/owl.carousel.min.css">
+    <link rel="stylesheet" href="CSS/owl.theme.default.min.css">
+
+
+
+</head>
+
+<body onload="slider() ;slider1()">
+
+
+    <section class="popup-form">
+        <div class="popup-container">
+
+            <button id="close" class="close-btn"><i class="fa-solid fa-xmark"></i></button>
+
+            <div class="popup-form-container">
+                <h2>Apply the Form</h2>
+                
+                <form>
+                    <input type="name" placeholder="Enter Your Name" required>
+                    <input type="email" placeholder="Enter Your Email" required>
+                    <input type="number" placeholder="Enter Your Mobile Number">
+                    <input type="country" placeholder="country">
+                    <input type="Products" placeholder="Products">
+                    <button class="submit-btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-4 py-lg-5 bg-light">
+        <div class="container py-lg-4">
+            <div class="logo ">
+                <a href="index.html">
+                    <img src="Images/Logo/logo jpr.png">
+
+                </a>
+            </div>
+
+            <div class="d-flex">
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="toggler-icon top-bar"></span>
+                    <span class="toggler-icon middle-bar"></span>
+                    <span class="toggler-icon bottom-bar"></span>
+                </button>
+
+            </div>
+            <div class="collapse navbar-collapse bg-light ms-auto " id="navbarSupportedContent">
+                <ul class="navbar-nav gap-lg-4 gap-1 list-menu ms-auto ">
+                    <li class="nav-item ">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle active-down" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a href="vegetable.html">
+                                <li>Vegetables</li>
+                            </a>
+                            <a href="fruits.html">
+                                <li>Fruits</li>
+                            </a>
+                            <a href="flowers.html">
+                                <li>Flowers</li>
+                            </a>
+                            <a href="handicrafts.html">
+                                <li>Handicrafts</li>
+                            </a>
+                            <a href="dairyproducts.html">
+                                <li>Dairy Products</li>
+                            </a>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active-down" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu" id="menu">
+                            <a href="customized.html">
+                                <li>Customized Products</li>
+                            </a>
+
+                            <a href="customhouse.html">
+                                <li>Custom House Agents</li>
+                            </a>
+                            <a href="logistics.html">
+                                <li>Logistics - Air & Land</li>
+                            </a>
+                            <a href="packhouse.html">
+                                <li>Pack House & Cold Storage</li>
+                            </a>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+
+                </ul>
+                <ul class="navbar-nav mx-lg-3">
+                    <li class="nav-item nav-a w-100">
+                        <a class="nav-link-1 px-lg-4 py-lg-2" href="contact.html"><span>
+                                Request A Quote</span></a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+
+
+
+
+
+
+    <header>
+        <div class="hero container-fluid ">
+
+            <div class="banner">
+                <div class="slider d-none d-lg-block">
+                    <img src="" id="slidImg" alt="Home Banners">
+                    <!-- <img src="images/hero.jpg" id="slidImg" alt=""> -->
+                </div>
+
+                <div class="slider d-lg-none">
+                    <img src="" id="slidImgs" alt="Home Banners">
+                    <!-- <img src="images/hero.jpg" id="slidImg" alt=""> -->
+                </div>
+
+                <div class="b-overlay">
+                    <div class="hero-txt  container" style="margin-left:60px" data-aos="zoom-out-up">
+
+                        <h2 class="fw-bold fs-1 mb-3 text-white">
+                            <span>Fast </span> & <span>Realiable</span> Service all over the <span>World</span>
+                        </h2>
+                        <h1 class="fw-bold fs-1 mb-0"> </h1>
+                        <h6 class="text-white lh-lg-0 mb-3">
+                            With our extensive knowledge of international trade regulations, customs procedures, and
+                            logistics, we can help you navigate the complex process of importing and exporting with
+                            ease.
+                        </h6>
+                        <p class="text-white lh-lg mb-3"></p>
+                        <div class="bt-name">
+                            <a href="contact.html" class="btn"> Know More</a>
+                            <a href="customized.html" class="btn"> Services</a>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <!-- ///////////////////////////////about section start///////////////////////////////////////////////// -->
+
+
+    <div class="container1 container">
+        <div class="content1 reveal">
+            <h2 class=" px-2 ">WELCOME TO OUR JPR EXPORTS</h2>
+            <h1 class=" px-2 ">Professionally Executed<br> <span>World-Class</span> Exports</h1>
+            <p class="t-js px-2">JPR Exports is based out of India! We are a dynamic and reliable business that
+                specializes in
+                facilitating the exchange of goods and services between India and the rest of the world. Our experienced
+                team of professionals is committed to providing you with efficient and cost-effective solutions for your
+                importing and exporting needs.</p>
+            <div class="imagebox">
+                <div class="image"><img src="Images/Pics/JPR Exports Md.jpeg" alt=""></div>
+                <div class="text">
+                    <h2>Jay Rajan</h2>
+                    <h3>Managing Director</h3>
+                </div>
+            </div>
+        </div>
+        <div class="content2 reveal2">
+            <p class="t-js px-2 "> Whether you are looking
+                to import raw materials, finished products, or to export high-quality Indian goods to market in your
+                country, we have the expertise and resources to help you succeed.<br><br>
+                At our company, we value transparency, integrity, and customer satisfaction. We believe in building
+                long-term relationships with our clients by providing personalized service, timely communication, and
+                reliable delivery. Our goal is to help you achieve your business objectives by minimizing risks,
+                maximizing opportunities, and optimizing your supply chain.<br><br>
+                So, whether you are a small business or a multinational corporation, we are here to support you every
+                step of the way. Contact us today to learn more about how we can help you succeed in the global
+                marketplace.</p>
+        </div>
+    </div>
+
+
+    <!-- //////////////////////////////about section end ///////////////////////////////////////////// -->
+
+
+    <div class="container2 container">
+        <div class="aboutcontent-1">
+            <div class="aboutimage1"><img src="Images/Pics/Air-Export-1024x768.webp" style="object-fit: cover;" alt="">
+            </div>
+            <div class="aboutimage2"><img src="Images/Pics/Ship-Export.jpg" style="object-fit: cover;" alt=""></div>
+        </div>
+
+        <div class="aboutcontent">
+            <h2 class=" px-2 ">
+                We are <span>committed</span> to delivering a safe, equitable, and reliable
+                <span>transportation.</span>
+            </h2>
+            <p class="t-js px-2 ">We methodically built JPR EXPORTS Sources, a subsidiary firm that delivers the
+                strength of our extensive
+                network of suppliers, merchants, CHAs, and Logistics Providers, with all of the command that we earned
+                there. With strong tenacity and unwavering commitment, we strive to be the backbone of your success
+                story in the Export-Import Industry.</p>
+            <div class="plus reveal2">
+                <a href="about.html"> <i class="fa-solid fa-square-plus"></i></a>
+                <a href="about.html">
+                    <h6>KNOW MORE ABOUT US</h6>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- ///////////////////////////////our products start////////////////////////////////////////// -->
+
+
+    <div class="products ">
+        <h4>OUR PRODUCTS</h4>
+        <h3>PRODUCTS WE <span>EXPORTS</span></h3>
+    </div>
+
+    <div class="products-2 container reveal3">
+        <div class="product-3">
+            <a href="vegetable.html"><img src="Images/Pics/vegetables.jpg" alt="Vegetables"></a>
+            <h4>Vegetables</h4>
+        </div>
+        <div class="product-3">
+            <a href="fruits.html"> <img src="Images/Pics/fruits.jpg" alt="fruits"></a>
+            <h4>Fruits</h4>
+        </div>
+        <div class="product-3">
+            <a href="flowers.html"><img src="Images/Pics/flowers-1.jpg" alt="Flowers"></a>
+            <h4>Flowers</h4>
+        </div>
+        <div class="product-3">
+            <a href="dairyproducts.html"><img src="Images/Pics/Ghee.png" alt="Dairy Products"></a>
+            <h4>Dairy Products</h4>
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <center><button type="button" class="btn mt-5 mb-5 mx-2" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            style="color: var(--white); padding: 10px 30px; font-size: 18px; font-weight: 700;">
+            Tell Us What Other Products You Are Looking To Import?
+        </button></center>
+
+    <!-- Modal -->
+    <div class="modal w-100" id="exampleModal" tabindex="5" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="model-container d-flex">
+
+
+                    <div class="model-form">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Custom Products</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body mb-1 online-booking">
+                            <form action="whatsapp1()" method="POST">
+                                <input type="text" placeholder="Enter Your Name" id="name" required><br>
+                                <input type="text" placeholder="Location" id="email" required><br>
+                                <input type="number" placeholder="Enter Your Number" id="number" required><br>
+
+
+                                <button type="submit" class="btn btn-primary" onclick="whatsapp1()">
+                                    Submit
+                                    Form</button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="highlight">
+        <h3>To Know more about the latest product updates</h3>
+        <a href ="https://www.jprexports.in/" target="_blank">www.jprexports.in</a>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- //////////////////////////////////our products end ///////////////////////////////////////////// -->
+
+
+    <div class="our-service container">
+        <div class="our-service-1">
+            <h3 class="px-2 ">OUR SERVICES WHAT WE PROVIDE</h3>
+            <h2 class="px-2 ">JPR EXPORTS <span> SERVICE</span></h2>
+        </div>
+        <div class="our-service-1 para-1">
+            <p class="t-js px-2">An professional in this field should have a comprehensive list of services that
+                facilitate the whole
+                supply chain of export-import activity, from grading to storage to logistics.
+            </p>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="container sliding-format">
+        <div id="slider" class="owl-carousel owl-carousel-2">
+            <div class="content-area">
+                <div class="pic">
+                    <img src="Images/Pics/Custom-house-Agents-300x231.jpg" alt="">
+                </div>
+                <div class="name">
+                    <h3>CUSTOM HOUSE AGENTS</h3>
+                </div>
+                <div class="para">
+                    <p>
+                        Get your goods cleared by roping<BR> in Expert Custom House Agents.
+                    </p>
+                </div>
+                <div class="click">
+                    <a href="">Read More<i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="content-area">
+                <div class="pic">
+                    <img src="Images/Pics/Export-Consultation-300x231.jpg" alt="">
+                </div>
+                <div class="name">
+                    <h3>CUSTOMIZED PRODUCTS</h3>
+                </div>
+                <div class="para">
+                    <p>
+                        Customized product exports are a growing trend in international trade.
+                    </p>
+                </div>
+                <div class="click">
+                    <a href="">Read More<i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="content-area">
+                <div class="pic">
+                    <img src="Images/Pics/Logistics-Air-Land-300x231.jpg" alt="">
+                </div>
+                <div class="name">
+                    <h3>LOGISTICS - AIR & LAND</h3>
+                </div>
+                <div class="para">
+                    <p>
+                        Partner with Logistics Companies that handle Freight across countries.
+                    </p>
+                </div>
+                <div class="click">
+                    <a href="">Read More<i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="content-area">
+                <div class="pic">
+                    <img src="Images/Pics/Pack-House-Cold-storage-300x231.jpg" alt="">
+                </div>
+                <div class="name">
+                    <h3>PACK HOUSE & COLD </h3>
+                </div>
+                <div class="para">
+                    <p>
+                        Storing & Packing of your perishable goods will now be in Safe Hands
+                    </p>
+                </div>
+                <div class="click">
+                    <a href="">Read More<i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+
+
+        </div>
+        <div class="owl-nav owl-navigator w-100 d-flex justify-content-between px-2">
+            <div class="owl-prev"><i class="fa-solid fa-arrow-left"></i></div>
+            <div class="owl-next"><i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+
+    </div>
+
+
+    <!-- ///////////////////////////why choose us////////////////////////////// -->
+
+    <div class="why-choose">
+        <div class="why-choose-1 choice reveal">
+            <h2 style="font-weight: 700;">WHY CHOOSE US </h2>
+            <h4>EXPERIENCE THE <span>BEST SERVICE</span> WITH US </h4>
+
+            <div class="why-choose-2">
+                <div class="divide">
+                    <div class="icon">
+                        <img src="Images/Pics/icons8-shield-96.png" alt="">
+                    </div>
+                    <h3>Widest Network</h3>
+                    <p>The broadest possible network of agricultural producers, CHAs, logistics service providers,
+                        packhouses, cold storage facilities, and so on.</p>
+                </div>
+                <div class="divide">
+                    <div class="icon">
+                        <img src="Images/Pics/icons8-truck-96.png" alt="">
+                    </div>
+                    <h3>Quality</h3>
+                    <p>JPR EXPORTS' source points and suppliers are carefully selected to deliver us the best items.</p>
+                </div>
+            </div>
+            <div class="why-choose-3">
+                <div class="divide-1">
+                    <div class="icon">
+                        <img src="Images/Pics/icons8-message-96.png" alt="">
+                    </div>
+                    <h3>One Stop Solution</h3>
+                    <P>We also offer a number of services to exporters around the country, making us your ultimate and
+                        exclusive
+                        JPR destination.</P>
+                </div>
+                <div class="divide-1">
+                    <div class="icon">
+                        <img src="Images/Pics/icons8-persons-96.png" alt="">
+                    </div>
+                    <h3>Expert Advisory</h3>
+                    <p>Our Founder and Mentor's extensive network of industry participants offers us credibility that
+                        you
+                        can
+                        rely on.</p>
+                </div>
+            </div>
+        </div>
+        <div class="why-choose-1 reveal2">
+            <img src="Images/Pics/air-freight.jpeg" alt="">
+        </div>
+
+    </div>
+
+
+    <!-- //////////////////////////////////How do start/////////////////////////////////////////// -->
+
+    <section>
+        <div class="workprocess">
+            <h3>HOW WE WORK</h3>
+            <h2>OUR <span>PROCESS</span></h2>
+            <p class="t-js px-2">Our Lines up of activities ensure you get the desired product, in the set quality
+                parameter, on time! Request a quote and get things moving now.</p>
+        </div>
+        <div class="workprocess-sec">
+            <div class="process1">
+                <div class="processimage"><img src="Images/Pics/process-icon1-1.png">
+                    <h3>Procurement</h3>
+                    <p>Our items are sourced from specialised sources</p>
+                </div>
+            </div>
+            <div class="process1">
+                <div class="processimage"><img src="Images/Pics/process-icon2-1.png">
+                    <h3>Sorting & Cleaning</h3>
+                    <p>Quality is sourced from here.</p>
+                </div>
+            </div>
+            <div class="process1">
+                <div class="processimage"><img src="Images/Pics/process-icon3-1.png">
+                    <h3>Packaging</h3>
+                    <p>Best-in-class materials for safe transportation</p>
+                </div>
+            </div>
+            <div class="process1">
+                <div class="processimage"><img src="Images/Pics/process-icon4-1.png">
+                    <h3>Delivery</h3>
+                    <p>Each action is planned in accordance with shipping line schedules.</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        </div>
+    </section>
+
+    <!-- //////////////////////////////How do end //////////////////////////////////////// -->
+
+    <!-- /////////////////////////////// Certification/////////////////////////////////////////////////// -->
+
+
+    <div class="certi">
+        <h3>CERTIFICATIONS</h3>
+
+    </div>
+
+
+    <div class="Regular-client container">
+        <div class="Regular-client-1">
+            <img src="Images/Pics/FSSAI_logo.png">
+        </div>
+        <div class="Regular-client-1">
+            <img src="Images/Pics/BNI-logo.jpeg">
+        </div>
+        <div class="Regular-client-1">
+            <img src="Images/Pics/Apeda-Logo.webp">
+        </div>
+        <div class="Regular-client-1">
+            <img src="Images/Pics/certificate-FIEO-scaled-removebg-preview.png">
+        </div>
+        <div class="Regular-client-1">
+            <img src="Images/Pics/GST-LOGO.png">
+        </div>
+
+    </div>
+
+
+    <div class="Regular-client container">
+        <div class="Regular-client-1">
+            <img src="Images/Pics/certificate-IEC-scaled-removebg-preview.png">
+        </div>
+        <div class="Regular-client-1">
+            <img src="Images/Pics/certificate-MSME-scaled-removebg-preview.png">
+        </div>
+        <div class="Regular-client-1">
+            <img src="Images/Pics/DGFT_logo-removebg-preview.png">
+        </div>
+        <div class="Regular-client-1">
+            <img src="Images/Pics/certificate-Handicrafts-scaled-removebg-preview (1).png">
+        </div>
+
+
+    </div>
+
+
+    <!-- ////////////////////////////FAQ Section/////////////////////////////////////// -->
+
+
+    <section class="milestones-section">
+
+        <div class="minlestone-container container">
+
+            <div class="milestone-details-container">
+
+                <div class="milestone-details">
+                    <img src="Images/Pics/faq-img.png" width="100%" alt="faq-image">
+
+                    <div class="milestone-overlay"></div>
+                </div>
+                <div class="milestone-details">
+                    <h2>Frequently Asked Questions</h2>
+                    <div class="question-container">
+                        <div class="question">
+                            <button id="button">
+                                <span>
+                                    Is it necessary to obtain Import Export Code of goods?</span>
+                                <span><i class="fa-solid fa-plus fa-lg"></i></span>
+                            </button>
+                            <p>
+                                However, certain categories of importers are exempted from obtaining Import Export Code.
+                            </p>
+                        </div>
+                        <div class="question">
+                            <button id="button">
+                                <span> Is there a separate code required for Export?</span>
+                                <span><i class="fa-solid fa-plus fa-lg"></i></span>
+                            </button>
+                            <p>No separate Code is required for Import and export and the same IEC can be used for both.
+                                Many people have a wrong Idea that a separate IEC code is required, but it is not true.
+                            </p>
+                        </div>
+                        <div class="question">
+                            <button id="button">
+                                <span>Is there a need to export of goods for personal use?</span>
+                                <span><i class="fa-solid fa-plus fa-lg"></i></span>
+                            </button>
+                            <p>Code is not required for import or export of goods for personal use. The Import Export
+                                Code is mandatory only for commercial purposes and business.</p>
+                        </div>
+                        <div class="question">
+                            <button id="button">
+                                <span>What is a ‘Restricted Item’ and where are they listed?</span>
+                                <span><i class="fa-solid fa-plus fa-lg"></i></span>
+                            </button>
+                            <p>Those goods, import of which is permitted only with the Permission/ Licence/Authorisation
+                                or in accordance with the procedure prescribed in a Public notice/ Notification are
+                                termed as ‘Restricted’ items.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <div class="form-section">
+        <div class="form-address">
+            <img src="Images/Banner/contact1-2-scaled.jpg" style="width: 100%; height: 100%;" alt="">
+        </div>
+        <div class="form-inputs">
+            <div class="form-title">
+                <h3>MESSAGE <span>US</span></h3>
+            </div>
+            <form action="whatsapp1()" class="needs-validation" method="POST">
+                <label for="fname">NAME <span>*</span></label> <br>
+                <input type="text" id="name1" name="fname" placeholder="ENTER YOUR NAME"><br>
+                <label for="email">EMAIL <span>*</span></label> <br>
+                <input type="email" id="email1" name="email" placeholder="ENTER YOUR EMAIL"><br>
+                <label for="fname">NUMBER <span>*</span></label> <br>
+                <input type="number" id="number1" name="number" placeholder="ENTER YOUR MOBILE NUMBER"><br>
+                <label for="message">MESSAGE <span>*</span></label> <br>
+                <textarea name="mesage" id="message1" cols="30" rows="5"
+                    placeholder="Write your message"></textarea><br>
+                <button type="button" class="submit-button" onclick="whatsapp1();">SUBMIT</button>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- -----------------------Footer section start------------------------------------ -->
+
+    <div class="foot reveal3 pt-5 ">
+        <div class="footer">
+            <div class="footer-1">
+
+                <img src="Images/Logo/logo jpr.png" class="logo1 mb-3" alt="logo-footer">
+
+                <p>JPR Exports is based out of India! We are a dynamic and reliable business.
+                </p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/profile.php?id=61554236014540"><i
+                            class="fa-brands fa-facebook-f fa-lg"></i></a>
+                    <a href="https://www.instagram.com/jpr_exports/"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                    <a href="https://www.linkedin.com/company/jpr-exports-mdu/"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://wa.me/+919543115004"><i class="fa-brands fa-whatsapp fa-lg"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer quick mb-3">
+            <h4 class="text-capitalize">Quick Links</h4>
+            <a href="index.html"> Home</a>
+            <a href="about.html"> About Us</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html"> Contact Us</a>
+        </div>
+        <div class="footer mb-3">
+            <h4>Our Services</h4>
+            <a href="customized.html">Customized Products</a>
+            <a href="customhouse.html">Custom House Agents</a>
+            <a href="logistics.html"> Logistics - Air & Land</a>
+            <a href="packhouse.html"> Pack Houses & Cold Storages</a>
+
+
+        </div>
+        <div class="footer down">
+            <h4>Contact Info</h4>
+            <div class="address">
+                <i class="fa-solid fa-location-dot"></i>
+                <a href="">1-5,15/8, Sanjeevi Nagar Main Rd, Sanjeevi Nagar, Koodal Nagar, Anaiyur, Tamil Nadu
+                    625017.</a>
+            </div>
+            <div class="address">
+                <i class="fa-solid fa-phone-volume"></i>
+                <a href="tel:+ 9543115004">+ 91 9543115004</a>
+            </div>
+            <div class="address">
+                <i class="fa-solid fa-envelope"></i>
+                <a href="mailto:info@jprexports.com">
+                    info@jprexports.com</a>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="after-footer ">
+        <div class="copyright">
+            <p>Copyright @ 2023 <a href="https://jprexports.com/">JPR Exports</a></p>
+        </div>
+
+        <div class="copyright">
+            <p>Developed By <a href="https://findwaydigital.com/">Findway Digital</a></p>
+        </div>
+    </div>
+
+    <!-- ---------------------------Footer section end --------------------------- -->
+
+
+    <a href="https://wa.me/+919543115004" class="pno">
+        <div class="phone">
+            <i class="fa-brands fa-whatsapp fa-xl"></i>
+        </div>
+    </a>
+
+    <a href="#" class="up-content">
+        <div class="up-arrow">
+            <i class="fa-solid fa-caret-up fa-beat"></i>
+        </div>
+    </a>
+
+
+
+
+    <div class="banner-icons gap-5">
+        <a href="https://www.instagram.com/jpr_exports/"><i class="fa-brands fa-instagram fa-xl"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=61554236014540"><i class="fa-brands fa-facebook-f fa-xl"></i>
+        </a>
+        <a href="https://wa.me/+919543115004"><i class="fa-brands fa-whatsapp fa-xl"></i></a>
+        <a href="https://www.linkedin.com/company/jpr-exports-mdu/"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--///////////// JS Elements //////////// -->
+
+    <script src="JS/script.js"></script>
+
+    <!-- ///////////Bootstrap Elements /////////// -->
+
+    <script src="JS/bootstrap.bundle.min.js"></script>
+
+    <!--///////////// Jquery Elements ///////////////// -->
+
+    <script src="JS/jquery.js"></script>
+
+    <script src="JS/owl.carousel.min.js"></script>
+
+
+    <script>
+
+        $(document).on("contextmenu", "body", function (event) {
+            //we won't show the default context menu
+            event.preventDefault();
+
+            //showing it close to our cursor
+            $('#menu').dropdown('toggle').css({
+                top: (event.pageY) + "px",
+                left: (event.pageX) + "px"
+            });
+        });
+
+        var owl = $('.owl2-carousel');
+        owl.owlCarousel(
+            {
+                loop: true,
+                margin: 10,
+                nav: false,
+                autoplay: true,
+                margin: 20,
+                responsive: {
+                    0: {
+                        items: 2
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 4
+                    }
+                }
+            }
+        );
+        // Go to the next item
+        $('.owl-next').click(function () {
+            owl.trigger('next.owl.carousel');
+        })
+        // Go to the previous item
+        $('.owl-prev').click(function () {
+            // With optional speed parameter
+            // Parameters has to be in square bracket '[]'
+            owl.trigger('prev.owl.carousel', [300]);
+        })
+    </script>
+
+    <!-- //////////////For What we do //////////// -->
+
+    <script>
+
+        var owl = $('.owl-carousel');
+        owl.owlCarousel(
+            {
+                loop: true,
+                margin: 10,
+                nav: false,
+                autoplay: true,
+                margin: 20,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+            }
+        );
+        // Go to the next item
+        $('.owl-next').click(function () {
+            owl.trigger('next.owl.carousel');
+        })
+        // Go to the previous item
+        $('.owl-prev').click(function () {
+            // With optional speed parameter
+            // Parameters has to be in square bracket '[]'
+            owl.trigger('prev.owl.carousel', [300]);
+        })
+    </script>
+
+
+
+
+    <!-- FAQ'S  -->
+    <script>
+
+
+
+        const buttons = document.querySelectorAll("#button");
+
+        buttons.forEach(button => {
+            button.addEventListener('click', () => {
+                const faq = button.nextElementSibling;
+                const icon = button.children[1];
+
+                faq.classList.toggle('show');
+                icon.classList.toggle('rotate');
+            })
+        })
+
+
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+
+        // For lg view 
+
+
+        var slideImg = document.getElementById('slidImg');
+        var images = new Array(
+            "Images/Banner/slider1.jpg",
+            "Images/Banner/Air-Export 2.jpg",
+            "Images/Banner/See-Port-scaled 3.jpg",
+            "Images/Banner/Truck 4.jpg",
+            "Images/Banner/Air-scaled.jpg"
+
+        );
+        var len = images.length;
+        var i = 0;
+        function slider() {
+            if (i > len - 1) {
+                i = 0;
+            }
+            slideImg.src = images[i];
+            i++;
+            setTimeout('slider()', 3000);
+        }
+
+
+    </script>
+
+    <script>
+        // For Mobile view 
+
+        var slideImgs = document.getElementById('slidImgs');
+
+
+        var imagess = new Array(
+            "Images/Banner/slider1.jpg",
+            "Images/Banner/Air-Export 2.jpg",
+            "Images/Banner/See-Port-scaled 3.jpg",
+            "Images/Banner/Truck 4.jpg",
+            "Images/Banner/Air-scaled.jpg"
+
+        );
+        var lens = imagess.length;
+        var i = 0;
+        function slider1() {
+            if (i > lens - 1) {
+                i = 0;
+            }
+            slideImgs.src = imagess[i];
+            i++;
+            setTimeout('slider1()', 3000);
+        }
+
+        // For Mobile view 
+
+
+
+
+    </script>
+
+
+    <script>
+
+        // reveal website 
+
+
+
+        // reveal website 
+
+        window.addEventListener('scroll', reveal2);
+
+        function reveal2() {
+            var reveals = document.querySelectorAll('.reveal2');
+
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+
+                var revealtop = reveals[i].getBoundingClientRect().top;
+
+                var revealPoint = 50;
+
+                if (revealtop < windowHeight - revealPoint) {
+                    reveals[i].classList.add('active');
+                }
+                else {
+                    reveals[i].classList.remove('active');
+                }
+
+
+            }
+        }
+
+
+        // reveal website 
+
+        window.addEventListener('scroll', reveal3);
+
+        function reveal3() {
+            var reveals = document.querySelectorAll('.reveal3');
+
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+
+                var revealtop = reveals[i].getBoundingClientRect().top;
+
+                var revealPoint = 50;
+
+                if (revealtop < windowHeight - revealPoint) {
+                    reveals[i].classList.add('active');
+                }
+                else {
+                    reveals[i].classList.remove('active');
+                }
+
+
+            }
+        }
+
+
+    </script>
+
+
+
+    <script>
+
+
+        function whatsapp1() {
+            var name = document.getElementById('name1').value;
+            var email = document.getElementById('email1').value;
+            var number = document.getElementById('number1').value;
+            var message = document.getElementById('message1').value;
+
+            if (name == "" || email == "" || number == "" || message == "") {
+                alert("Enter All Fields");
+
+            } else {
+
+
+                var formattedMessage = (
+                    " *Name* : " + name + "\n" +
+                    " *Email* : " + email + "\n" +
+                    " *Phone Number* : " + number + "\n" +
+                    " *Message* : " + message);
+
+
+                // Encode the message for the URL
+                var encodedMessage = encodeURIComponent(formattedMessage);
+
+                // Construct the WhatsApp URL
+
+                var url = "https://wa.me/+919543115004?text=" + encodedMessage;
+
+
+
+                // Open the WhatsApp URL in a new tab/window
+                window.open(url);
+
+
+            }
+        }
+
+
+
+
+    </script>
+
+
+    <script>
+
+        //////////////////////// Form Popup /////////////////////////////////////////////
+
+        let popup = document.querySelector('.popup-form');
+        let closeBtn = document.querySelector('#close');
+
+        window.addEventListener("load", function () {
+            this.setTimeout(
+                function open() {
+                    popup.style.scale = "1";
+                    popup.classList.toggle('rot')
+                    if (popup.style.scale = "1") {
+                        document.querySelector('.body').classList.toggle('blur');
+                    }
+
+                }, 3000
+            );
+
+
+        });
+
+        closeBtn.addEventListener("click", function () {
+            popup.classList.toggle('rot')
+            popup.style.scale = "0";
+
+            if (popup.style.scale = "0") {
+                document.querySelector('.body').classList.remove('blur');
+
+            }
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

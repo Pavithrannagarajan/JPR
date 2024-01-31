@@ -1,0 +1,774 @@
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    transition: 0.4s all;
+    box-sizing: border-box;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+:root {
+    --color: #03265b;
+    --yellow: #e5912f;
+    --black: black;
+    --white: white;
+    --gray: #cecece;
+
+}
+
+
+
+
+
+.container1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:5%;
+
+
+}
+
+.plus {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.plus h6 {
+    font-size: 20px;
+    color: var(--color);
+}
+
+.plus a {
+    text-decoration: none;
+}
+
+.plus i {
+    color: var(--color);
+
+
+}
+
+
+.what-we-do{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    width: 100%;
+    height: 100%;
+}
+.what-we-do-sec1{
+    width:47%;
+    height: auto;
+    justify-content: center;
+    background-color: #f3f4f4;
+    padding-left: 12%;
+}
+.what-we-do-sec2{
+    width:47%;
+    height: auto;
+}
+.what-we-do-img{
+    width: 100%;
+    height:450px;
+    object-fit: cover;
+}
+.what-we-do-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.what-we-do-sec1 a{
+    text-decoration:none;
+}
+.what-we-do-sec1 i{
+    color:var(--yellow);
+    font-size:20px;
+
+}
+
+.tick-mark{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+ 
+ 
+}
+.tick-mark a{
+    margin-bottom:25px;
+    display: flex;
+    gap: 15px;
+    font-size:18px;
+    align-items: center;
+
+    
+}
+.tick-mark span{
+    color:var(--color) !important;
+}
+.what-we-do-sec1 h3{
+    margin-top: 4%;
+    color: var(--yellow);
+    font-size: 18px;
+    font-weight: 600;
+}
+.what-we-do-sec1 h2{
+    font-size: 46px;
+    color: var(--color);
+    margin-top: 2%;
+    font-weight: 700;
+}
+.what-we-do-sec1 span{
+    
+    color: var(--yellow);
+    font-weight:700;
+}
+.what-we-do-sec1 ul li::marker{
+   color: #E5912F;
+   
+}
+.what-we-do-sec1 ul {
+    color: #03265B;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 10px;
+    
+    
+}
+.what-we-do-sec1 ul li{
+    margin-top: 4%;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:900px){
+    .what-we-do-sec1{
+        width:47%;
+        height: auto;
+        justify-content: center;
+        background-color: #f3f4f4;
+        padding-left: 0%;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:320px){
+
+   
+
+.plus {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.plus h6 {
+    font-size: 20px;
+    color: var(--color);
+}
+
+.plus a {
+    text-decoration: none;
+}
+
+.plus i {
+    color: var(--color);
+
+
+}
+
+
+
+.what-we-do{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top:3%;
+    width: 100%;
+    height: 100%;
+    padding:2%;
+}
+.what-we-do-sec1{
+    width:100%;
+    height: auto;
+    justify-content: center;
+}
+
+.what-we-do-sec2{
+    width:100%;
+    height: auto;
+}
+.what-we-do-img{
+    width: 100%;
+    height:350px;
+    object-fit: cover;
+}
+.what-we-do-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.what-we-do-sec1 a{
+    text-decoration:none;
+}
+.what-we-do-sec1 i{
+    color:var(--yellow);
+    font-size:20px;
+
+}
+
+.tick-mark{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+ 
+ 
+}
+.tick-mark a{
+    margin-bottom:25px;
+    display: flex;
+    gap: 15px;
+    font-size:18px;
+    align-items: center;
+
+    
+}
+.tick-mark span{
+    color:var(--color) !important;
+}
+.what-we-do-sec1 h3{
+    margin-top: 4%;
+    color: var(--yellow);
+    font-size: 18px;
+    font-weight: 600;
+}
+.what-we-do-sec1 h2{
+    font-size:30px;
+    color: var(--color);
+    margin-top: 2%;
+}
+.what-we-do-sec1 span{
+    
+    color: var(--yellow);
+    font-weight:700;
+}
+.what-we-do-sec1 ul li::marker{
+   color: #E5912F;
+   
+}
+.what-we-do-sec1 ul {
+    color: #03265B;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 10px;
+    
+    
+}
+.what-we-do-sec1 ul li{
+    margin-top: 4%;
+}
+
+
+}
+
+
+@media screen and (min-width:321px) and (max-width:426px){
+
+
+    
+    .plus {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        align-items: center;
+    }
+    
+    .plus h6 {
+        font-size: 20px;
+        color: var(--color);
+    }
+    
+    .plus a {
+        text-decoration: none;
+    }
+    
+    .plus i {
+        color: var(--color);
+    
+    
+    }
+    
+    
+    
+    .what-we-do{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top:3%;
+        width: 100%;
+        height: 100%;
+        padding:2%;
+    }
+    .what-we-do-sec1{
+        width:100%;
+        height: auto;
+        justify-content: center;
+    }
+    
+    .what-we-do-sec2{
+        width:100%;
+        height: auto;
+    }
+    .what-we-do-img{
+        width: 100%;
+        height:250px;
+        object-fit: cover;
+    }
+    .what-we-do-img img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .what-we-do-sec1 a{
+        text-decoration:none;
+    }
+    .what-we-do-sec1 i{
+        color:var(--yellow);
+        font-size:20px;
+    
+    }
+    
+    .tick-mark{
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+     
+     
+    }
+    .tick-mark a{
+        margin-bottom:25px;
+        display: flex;
+        gap: 15px;
+        font-size:18px;
+        align-items: center;
+    
+        
+    }
+    .tick-mark span{
+        color:var(--color) !important;
+    }
+    .what-we-do-sec1 h3{
+        margin-top: 4%;
+        color: var(--yellow);
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .what-we-do-sec1 h2{
+        font-size:30px;
+        color: var(--color);
+        margin-top: 2%;
+    }
+    .what-we-do-sec1 span{
+        
+        color: var(--yellow);
+        font-weight:700;
+    }
+    .what-we-do-sec1 ul li::marker{
+       color: #E5912F;
+       
+    }
+    .what-we-do-sec1 ul {
+        color: #03265B;
+        font-weight: 700;
+        font-size: 20px;
+        margin-top: 10px;
+        
+        
+    }
+    .what-we-do-sec1 ul li{
+        margin-top: 4%;
+    }
+    
+
+}
+
+
+@media screen and (min-width:426px) and (max-width:600px){
+
+    .plus {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        align-items: center;
+    }
+    
+    .plus h6 {
+        font-size: 20px;
+        color: var(--color);
+    }
+    
+    .plus a {
+        text-decoration: none;
+    }
+    
+    .plus i {
+        color: var(--color);
+    
+    
+    }
+    
+    
+    
+    .what-we-do{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top:3%;
+        width: 100%;
+        height: 100%;
+        padding:2%;
+    }
+    .what-we-do-sec1{
+        width:100%;
+        height: auto;
+        justify-content: center;
+    }
+    
+    .what-we-do-sec2{
+        width:100%;
+        height: auto;
+    }
+    .what-we-do-img{
+        width: 100%;
+        height:350px;
+        object-fit: cover;
+    }
+    .what-we-do-img img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .what-we-do-sec1 a{
+        text-decoration:none;
+    }
+    .what-we-do-sec1 i{
+        color:var(--yellow);
+        font-size:20px;
+    
+    }
+    
+    .tick-mark{
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+     
+     
+    }
+    .tick-mark a{
+        margin-bottom:25px;
+        display: flex;
+        gap: 15px;
+        font-size:18px;
+        align-items: center;
+    
+        
+    }
+    .tick-mark span{
+        color:var(--color) !important;
+    }
+    .what-we-do-sec1 h3{
+        margin-top: 4%;
+        color: var(--yellow);
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .what-we-do-sec1 h2{
+        font-size:30px;
+        color: var(--color);
+        margin-top: 2%;
+    }
+    .what-we-do-sec1 span{
+        
+        color: var(--yellow);
+        font-weight:700;
+    }
+    .what-we-do-sec1 ul li::marker{
+       color: #E5912F;
+       
+    }
+    .what-we-do-sec1 ul {
+        color: #03265B;
+        font-weight: 700;
+        font-size: 20px;
+        margin-top: 10px;
+        
+        
+    }
+    .what-we-do-sec1 ul li{
+        margin-top: 4%;
+    }
+    
+
+
+
+
+}
+
+@media screen and (min-width:601px) and (max-width:768px){
+
+   
+    
+    .plus {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        align-items: center;
+    }
+    
+    .plus h6 {
+        font-size: 20px;
+        color: var(--color);
+    }
+    
+    .plus a {
+        text-decoration: none;
+    }
+    
+    .plus i {
+        color: var(--color);
+    
+    
+    }
+    
+    
+    
+    .what-we-do{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top:3%;
+        width: 100%;
+        height: 100%;
+        padding:2%;
+    }
+    .what-we-do-sec1{
+        width:100%;
+        height: auto;
+        justify-content: center;
+    }
+    
+    .what-we-do-sec2{
+        width:100%;
+        height: auto;
+    }
+    .what-we-do-img{
+        width: 100%;
+        height:350px;
+        object-fit: cover;
+    }
+    .what-we-do-img img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .what-we-do-sec1 a{
+        text-decoration:none;
+    }
+    .what-we-do-sec1 i{
+        color:var(--yellow);
+        font-size:20px;
+    
+    }
+    
+    .tick-mark{
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+     
+     
+    }
+    .tick-mark a{
+        margin-bottom:25px;
+        display: flex;
+        gap: 15px;
+        font-size:18px;
+        align-items: center;
+    
+        
+    }
+    .tick-mark span{
+        color:var(--color) !important;
+    }
+    .what-we-do-sec1 h3{
+        margin-top: 4%;
+        color: var(--yellow);
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .what-we-do-sec1 h2{
+        font-size:30px;
+        color: var(--color);
+        margin-top: 2%;
+    }
+    .what-we-do-sec1 span{
+        
+        color: var(--yellow);
+        font-weight:700;
+    }
+    .what-we-do-sec1 ul li::marker{
+       color: #E5912F;
+       
+    }
+    .what-we-do-sec1 ul {
+        color: #03265B;
+        font-weight: 700;
+        font-size: 20px;
+        margin-top: 10px;
+        
+        
+    }
+    .what-we-do-sec1 ul li{
+        margin-top: 4%;
+    }
+    
+
+
+
+
+}
+
+@media screen and (min-width:769px) and (max-width:900px){
+
+   
+    
+    .plus {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        align-items: center;
+    }
+    
+    .plus h6 {
+        font-size: 20px;
+        color: var(--color);
+    }
+    
+    .plus a {
+        text-decoration: none;
+    }
+    
+    .plus i {
+        color: var(--color);
+    
+    
+    }
+    
+    
+    
+    .what-we-do{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top:3%;
+        width: 100%;
+        height: 100%;
+        padding:2%;
+    }
+    .what-we-do-sec1{
+        width:100%;
+        height: auto;
+        justify-content: center;
+    }
+    
+    .what-we-do-sec2{
+        width:100%;
+        height: auto;
+    }
+    .what-we-do-img{
+        width: 100%;
+        height:350px;
+        object-fit: cover;
+    }
+    .what-we-do-img img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .what-we-do-sec1 a{
+        text-decoration:none;
+    }
+    .what-we-do-sec1 i{
+        color:var(--yellow);
+        font-size:20px;
+    
+    }
+    
+    .tick-mark{
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+     
+     
+    }
+    .tick-mark a{
+        margin-bottom:25px;
+        display: flex;
+        gap: 15px;
+        font-size:18px;
+        align-items: center;
+    
+        
+    }
+    .tick-mark span{
+        color:var(--color) !important;
+    }
+    .what-we-do-sec1 h3{
+        margin-top: 4%;
+        color: var(--yellow);
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .what-we-do-sec1 h2{
+        font-size:30px;
+        color: var(--color);
+        margin-top: 2%;
+    }
+    .what-we-do-sec1 span{
+        
+        color: var(--yellow);
+        font-weight:700;
+    }
+    .what-we-do-sec1 ul li::marker{
+       color: #E5912F;
+       
+    }
+    .what-we-do-sec1 ul {
+        color: #03265B;
+        font-weight: 700;
+        font-size: 20px;
+        margin-top: 10px;
+        
+        
+    }
+    .what-we-do-sec1 ul li{
+        margin-top: 4%;
+    }
+    
+
+
+
+}

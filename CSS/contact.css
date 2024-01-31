@@ -1,0 +1,1852 @@
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    transition: 0.4s all;
+    box-sizing: border-box;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+:root {
+    --color: #03265b;
+    --yellow: #e5912f;
+    --black: black;
+    --white: white;
+    --gray: #cecece;
+
+}
+
+.addresssection{
+    padding-top:30px;
+    padding-bottom: 50px;
+    align-items: center;
+    text-align: center;
+}
+.addresssection h2{
+    color: var(--yellow);
+    font-size:22px;
+    font-weight: 600;
+
+}
+.addresssection h1{
+    color: var(--color);
+    font-size: 45px;
+    font-weight: 600;
+
+}
+.addresssection h1 span{
+    color:var(--yellow);
+}
+.addresssection2{
+    display: flex;
+    padding-bottom: 50px;
+    justify-content: space-evenly;
+    padding:10px;
+    width:100%;
+    height: auto;
+}
+
+.card1 i{
+    color:var(--white);
+    font-size:35px;
+    margin-bottom:10px;
+    
+}
+
+.card1{
+    padding:5%;
+    margin:0px;
+    background-color: var(--color);
+    align-items: center;
+    text-align: center;
+    width:30%;
+    height:240px;
+
+}
+.card1 h3{
+    font-size: 18px;
+    color: white;
+
+}
+.card1 a{
+    text-decoration: none;
+    color:white;
+}
+.card1 p{
+    font-size: 18px;
+    color: white;
+
+}
+.cd-1{
+    background-color: var(--yellow);
+}
+
+.card2{
+    padding: 80px;
+    margin: 20px;
+  
+    align-items: center;
+    text-align: center;
+  
+
+}
+.card2 h3{
+    font-size: 18px;
+    color: white;
+
+}
+.card2 p{
+    font-size: 18px;
+    color: white;
+
+}
+
+
+.card3{
+    padding: 90px;
+    margin: 20px;
+    background-color: var(--color);
+    align-items: center;
+    text-align: center;
+   
+
+}
+.card3 h3{
+    font-size: 18px;
+    color: white;
+
+}
+.card3 p{
+    font-size: 18px;
+    color: white;
+
+}
+
+
+.form-section {
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    height: auto;
+    text-align: justify;
+    margin-bottom: 5%;
+    margin-top:4%;
+
+  
+}
+
+.form-section .form-address {
+    width: 45%;
+    text-align: justify;
+}
+
+.get-details p {
+    color: var(--white);
+}
+
+
+.form-section .form-inputs {
+    width: 45%;
+    padding: 3%;
+    background-color:var(--color);
+}
+
+.form-section .form-inputs .form-title h3 {
+    color: var(--white);
+    font-weight: bolder;
+}
+
+.form-section .form-inputs .form-title h3 span {
+    color: var(--white);
+}
+
+
+.form-section .form-inputs label {
+    font-weight: 600;
+    color:white;
+}
+
+.form-section .form-inputs label span {
+    color: red;
+}
+
+.form-section .form-inputs input {
+    width: 90%;
+    border: none;
+    background:white;
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+.form-section .form-inputs textarea {
+    width: 90%;
+    border: none;
+    background:white;
+
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+.form-section .form-inputs button {
+    width: 90%;
+    border: none;
+    padding: 3%;
+    color: var(--color);
+    border: 1px solid var(--color);
+    background: var(--white);
+    transition: 0.5s;
+}
+
+.form-section .form-inputs button:hover {
+    color: var(--white);
+    background: var(--yellow);
+}
+
+
+
+
+
+
+@media screen and (max-width:320px){
+
+
+
+    .addresssection{
+        padding-top:30px;
+        padding-bottom:10px;
+        align-items: center;
+        text-align: center;
+    }
+    .addresssection h2{
+        color: var(--yellow);
+        font-size:22px;
+        font-weight: 600;
+    
+    }
+    .addresssection h1{
+        color: var(--color);
+        font-size:28px;
+        font-weight: 600;
+    
+    }
+    .addresssection h1 span{
+        color:var(--yellow);
+    }
+
+    .addresssection2{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50px;
+        justify-content: space-evenly;
+        padding:4%;
+        width:100%;
+        height: auto;
+    }
+    
+    .card1 i{
+        color:var(--white);
+        font-size:35px;
+        margin-bottom:10px;
+        
+    }
+    
+    .card1{
+        padding:5%;
+        margin:0px;
+        background-color: var(--color);
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width:100%;
+        height:200px;
+        margin-bottom:30px;
+    
+    }
+    .card1 a{
+        text-decoration: none;
+        color:white;
+    }
+    .card1 h3{
+        font-size: 18px;
+        color: white;
+    
+    }
+    .card1 p{
+        font-size: 18px;
+        color: white;
+    
+    }
+    .cd-1{
+        background-color: var(--yellow);
+    }
+    
+    .card2{
+        padding: 80px;
+        margin: 20px;
+      
+        align-items: center;
+        text-align: center;
+      
+    
+    }
+    .card2 h3{
+        font-size: 18px;
+        color: white;
+    
+    }
+    .card2 p{
+        font-size: 18px;
+        color: white;
+    
+    }
+    
+    
+    .card3{
+        padding: 90px;
+        margin: 20px;
+        background-color: var(--color);
+        align-items: center;
+        text-align: center;
+       
+    
+    }
+    .card3 h3{
+        font-size: 18px;
+        color: white;
+    
+    }
+    .card3 p{
+        font-size: 18px;
+        color: white;
+    
+    }
+
+   
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 100%;
+    height:auto;
+    text-align: justify;
+    margin-bottom: 5%;
+    margin-top:4%;
+
+  
+}
+
+.form-section .form-address {
+    width:100%;
+    height:250px;
+    text-align: justify;
+}
+
+.get-details p {
+    color: var(--white);
+}
+
+
+.form-section .form-inputs {
+    width: 100%;
+    padding: 3%;
+    background-color:var(--color);
+    margin-top:20px;
+}
+
+.form-section .form-inputs .form-title h3 {
+    color: var(--white);
+    font-weight: bolder;
+}
+
+.form-section .form-inputs .form-title h3 span {
+    color: var(--white);
+}
+
+
+.form-section .form-inputs label {
+    font-weight: 600;
+    color:white;
+}
+
+.form-section .form-inputs label span {
+    color: red;
+}
+
+.form-section .form-inputs input {
+    width: 100%;
+    border: none;
+    background:white;
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+.form-section .form-inputs textarea {
+    width: 100%;
+    border: none;
+    background:white;
+
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+.form-section .form-inputs button {
+    width: 100%;
+    border: none;
+    padding: 3%;
+    color: var(--color);
+    border: 1px solid var(--color);
+    background: var(--white);
+    transition: 0.5s;
+}
+
+.form-section .form-inputs button:hover {
+    color: var(--white);
+    background: var(--yellow);
+}
+
+
+
+
+}
+
+@media screen and (min-width:321px) and (max-width:375px){
+  
+    
+
+    .addresssection{
+        padding-top:30px;
+        padding-bottom:10px;
+        align-items: center;
+        text-align: center;
+    }
+    .addresssection h2{
+        color: var(--yellow);
+        font-size:22px;
+        font-weight: 600;
+    
+    }
+    .addresssection h1{
+        color: var(--color);
+        font-size:28px;
+        font-weight: 600;
+    
+    }
+    .addresssection h1 span{
+        color:var(--yellow);
+    }
+
+    .addresssection2{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50px;
+        justify-content: space-evenly;
+        padding:4%;
+        width:100%;
+        height: auto;
+    }
+    
+    .card1 i{
+        color:var(--white);
+        font-size:35px;
+        margin-bottom:10px;
+        
+    }
+    
+    .card1{
+        padding:5%;
+        margin:0px;
+        background-color: var(--color);
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width:100%;
+        height:200px;
+        margin-bottom:30px;
+    
+    }
+    .card1 a{
+        text-decoration: none;
+        color:white;
+    }
+    .card1 h3{
+        font-size: 18px;
+        color: white;
+    
+    }
+    .card1 p{
+        font-size: 18px;
+        color: white;
+    
+    }
+    .cd-1{
+        background-color: var(--yellow);
+    }
+    
+    .card2{
+        padding: 80px;
+        margin: 20px;
+      
+        align-items: center;
+        text-align: center;
+      
+    
+    }
+    .card2 h3{
+        font-size: 18px;
+        color: white;
+    
+    }
+    .card2 p{
+        font-size: 18px;
+        color: white;
+    
+    }
+    
+    
+    .card3{
+        padding: 90px;
+        margin: 20px;
+        background-color: var(--color);
+        align-items: center;
+        text-align: center;
+       
+    
+    }
+    .card3 h3{
+        font-size: 18px;
+        color: white;
+    
+    }
+    .card3 p{
+        font-size: 18px;
+        color: white;
+    
+    }
+
+   
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 100%;
+    height:auto;
+    text-align: justify;
+    margin-bottom: 5%;
+    margin-top:4%;
+
+  
+}
+
+.form-section .form-address {
+    width:100%;
+    height:250px;
+    text-align: justify;
+}
+
+.get-details p {
+    color: var(--white);
+}
+
+
+.form-section .form-inputs {
+    width: 100%;
+    padding: 3%;
+    background-color:var(--color);
+    margin-top:20px;
+}
+
+.form-section .form-inputs .form-title h3 {
+    color: var(--white);
+    font-weight: bolder;
+}
+
+.form-section .form-inputs .form-title h3 span {
+    color: var(--white);
+}
+
+
+.form-section .form-inputs label {
+    font-weight: 600;
+    color:white;
+}
+
+.form-section .form-inputs label span {
+    color: red;
+}
+
+.form-section .form-inputs input {
+    width: 100%;
+    border: none;
+    background:white;
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+.form-section .form-inputs textarea {
+    width: 100%;
+    border: none;
+    background:white;
+
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+.form-section .form-inputs button {
+    width: 100%;
+    border: none;
+    padding: 3%;
+    color: var(--color);
+    border: 1px solid var(--color);
+    background: var(--white);
+    transition: 0.5s;
+}
+
+.form-section .form-inputs button:hover {
+    color: var(--white);
+    background: var(--yellow);
+}
+
+
+
+
+}
+
+
+@media screen and (min-width:376px) and (max-width:425px){
+  
+    
+    .addresssection{
+        padding-top:30px;
+        padding-bottom:10px;
+        align-items: center;
+        text-align: center;
+    }
+    .addresssection h2{
+        color: var(--yellow);
+        font-size:22px;
+        font-weight: 600;
+    
+    }
+    .addresssection h1{
+        color: var(--color);
+        font-size:28px;
+        font-weight: 600;
+    
+    }
+    .addresssection h1 span{
+        color:var(--yellow);
+    }
+
+    .addresssection2{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50px;
+        justify-content: space-evenly;
+        padding:4%;
+        width:100%;
+        height: auto;
+    }
+    
+    .card1 i{
+        color:var(--white);
+        font-size:35px;
+        margin-bottom:10px;
+        
+    }
+    
+    .card1{
+        padding:5%;
+        margin:0px;
+        background-color: var(--color);
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width:100%;
+        height:200px;
+        margin-bottom:30px;
+    
+    }
+    .card1 a{
+        text-decoration: none;
+        color:white;
+    }
+    .card1 h3{
+        font-size: 18px;
+        color: white;
+    
+    }
+    .card1 p{
+        font-size: 18px;
+        color: white;
+    
+    }
+    .cd-1{
+        background-color: var(--yellow);
+    }
+    
+    .card2{
+        padding: 80px;
+        margin: 20px;
+      
+        align-items: center;
+        text-align: center;
+      
+    
+    }
+    .card2 h3{
+        font-size: 18px;
+        color: white;
+    
+    }
+    .card2 p{
+        font-size: 18px;
+        color: white;
+    
+    }
+    
+    
+    .card3{
+        padding: 90px;
+        margin: 20px;
+        background-color: var(--color);
+        align-items: center;
+        text-align: center;
+       
+    
+    }
+    .card3 h3{
+        font-size: 18px;
+        color: white;
+    
+    }
+    .card3 p{
+        font-size: 18px;
+        color: white;
+    
+    }
+
+   
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 100%;
+    height:auto;
+    text-align: justify;
+    margin-bottom: 5%;
+    margin-top:4%;
+
+  
+}
+
+.form-section .form-address {
+    width:100%;
+    height:250px;
+    text-align: justify;
+}
+
+.get-details p {
+    color: var(--white);
+}
+
+
+.form-section .form-inputs {
+    width: 100%;
+    padding: 3%;
+    background-color:var(--color);
+    margin-top:20px;
+}
+
+.form-section .form-inputs .form-title h3 {
+    color: var(--white);
+    font-weight: bolder;
+}
+
+.form-section .form-inputs .form-title h3 span {
+    color: var(--white);
+}
+
+
+.form-section .form-inputs label {
+    font-weight: 600;
+    color:white;
+}
+
+.form-section .form-inputs label span {
+    color: red;
+}
+
+.form-section .form-inputs input {
+    width: 100%;
+    border: none;
+    background:white;
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+.form-section .form-inputs textarea {
+    width: 100%;
+    border: none;
+    background:white;
+
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+.form-section .form-inputs button {
+    width: 100%;
+    border: none;
+    padding: 3%;
+    color: var(--color);
+    border: 1px solid var(--color);
+    background: var(--white);
+    transition: 0.5s;
+}
+
+.form-section .form-inputs button:hover {
+    color: var(--white);
+    background: var(--yellow);
+}
+
+
+
+
+
+
+
+}
+
+@media screen and (min-width:426px) and (max-width:600px){
+
+    .addresssection{
+        padding-top:30px;
+        padding-bottom:10px;
+        align-items: center;
+        text-align: center;
+    }
+    .addresssection h2{
+        color: var(--yellow);
+        font-size:22px;
+        font-weight: 600;
+    
+    }
+    .addresssection h1{
+        color: var(--color);
+        font-size:28px;
+        font-weight: 600;
+    
+    }
+    .addresssection h1 span{
+        color:var(--yellow);
+    }
+
+    .addresssection2{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50px;
+        justify-content: space-evenly;
+        padding:4%;
+        width:100%;
+        height: auto;
+    }
+    
+    .card1 i{
+        color:var(--white);
+        font-size:35px;
+        margin-bottom:10px;
+        
+    }
+    
+    .card1{
+        padding:5%;
+        margin:0px;
+        background-color: var(--color);
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width:100%;
+        height:200px;
+        margin-bottom:30px;
+    
+    }
+    .card1 a{
+        text-decoration: none;
+        color:white;
+    }
+    .card1 h3{
+        font-size: 18px;
+        color: white;
+    
+    }
+    .card1 p{
+        font-size: 18px;
+        color: white;
+    
+    }
+    .cd-1{
+        background-color: var(--yellow);
+    }
+    
+    .card2{
+        padding: 80px;
+        margin: 20px;
+      
+        align-items: center;
+        text-align: center;
+      
+    
+    }
+    .card2 h3{
+        font-size: 18px;
+        color: white;
+    
+    }
+    .card2 p{
+        font-size: 18px;
+        color: white;
+    
+    }
+    
+    
+    .card3{
+        padding: 90px;
+        margin: 20px;
+        background-color: var(--color);
+        align-items: center;
+        text-align: center;
+       
+    
+    }
+    .card3 h3{
+        font-size: 18px;
+        color: white;
+    
+    }
+    .card3 p{
+        font-size: 18px;
+        color: white;
+    
+    }
+
+   
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 100%;
+    height:auto;
+    text-align: justify;
+    margin-bottom: 5%;
+    margin-top:4%;
+
+  
+}
+
+.form-section .form-address {
+    width:100%;
+    height:250px;
+    text-align: justify;
+}
+
+.get-details p {
+    color: var(--white);
+}
+
+
+.form-section .form-inputs {
+    width: 100%;
+    padding: 3%;
+    background-color:var(--color);
+    margin-top:20px;
+}
+
+.form-section .form-inputs .form-title h3 {
+    color: var(--white);
+    font-weight: bolder;
+}
+
+.form-section .form-inputs .form-title h3 span {
+    color: var(--white);
+}
+
+
+.form-section .form-inputs label {
+    font-weight: 600;
+    color:white;
+}
+
+.form-section .form-inputs label span {
+    color: red;
+}
+
+.form-section .form-inputs input {
+    width: 100%;
+    border: none;
+    background:white;
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+.form-section .form-inputs textarea {
+    width: 100%;
+    border: none;
+    background:white;
+
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+.form-section .form-inputs button {
+    width: 100%;
+    border: none;
+    padding: 3%;
+    color: var(--color);
+    border: 1px solid var(--color);
+    background: var(--white);
+    transition: 0.5s;
+}
+
+.form-section .form-inputs button:hover {
+    color: var(--white);
+    background: var(--yellow);
+}
+
+
+
+
+
+}
+
+@media screen and (min-width:601px) and (max-width:768px){
+
+    .addresssection{
+        padding-top:30px;
+        padding-bottom:10px;
+        align-items: center;
+        text-align: center;
+    }
+    .addresssection h2{
+        color: var(--yellow);
+        font-size:22px;
+        font-weight: 600;
+    
+    }
+    .addresssection h1{
+        color: var(--color);
+        font-size:28px;
+        font-weight: 600;
+    
+    }
+    .addresssection h1 span{
+        color:var(--yellow);
+    }
+
+    .addresssection2{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50px;
+        justify-content: space-evenly;
+        padding:4%;
+        width:100%;
+        height: auto;
+    }
+    
+    .card1 i{
+        color:var(--white);
+        font-size:35px;
+        margin-bottom:10px;
+        
+    }
+    
+    .card1{
+        padding:5%;
+        margin:0px;
+        background-color: var(--color);
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width:100%;
+        height:200px;
+        margin-bottom:30px;
+    
+    }
+    .card1 a{
+        text-decoration: none;
+        color:white;
+    }
+    .card1 h3{
+        font-size: 18px;
+        color: white;
+    
+    }
+    .card1 p{
+        font-size: 18px;
+        color: white;
+    
+    }
+    .cd-1{
+        background-color: var(--yellow);
+    }
+    
+    .card2{
+        padding: 80px;
+        margin: 20px;
+      
+        align-items: center;
+        text-align: center;
+      
+    
+    }
+    .card2 h3{
+        font-size: 18px;
+        color: white;
+    
+    }
+    .card2 p{
+        font-size: 18px;
+        color: white;
+    
+    }
+    
+    
+    .card3{
+        padding: 90px;
+        margin: 20px;
+        background-color: var(--color);
+        align-items: center;
+        text-align: center;
+       
+    
+    }
+    .card3 h3{
+        font-size: 18px;
+        color: white;
+    
+    }
+    .card3 p{
+        font-size: 18px;
+        color: white;
+    
+    }
+
+   
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 100%;
+    height:auto;
+    text-align: justify;
+    margin-bottom: 5%;
+    margin-top:4%;
+
+  
+}
+
+.form-section .form-address {
+    width:100%;
+    height:300px;
+    text-align: justify;
+}
+
+.get-details p {
+    color: var(--white);
+}
+
+
+.form-section .form-inputs {
+    width: 100%;
+    padding: 3%;
+    background-color:var(--color);
+    margin-top:20px;
+}
+
+.form-section .form-inputs .form-title h3 {
+    color: var(--white);
+    font-weight: bolder;
+}
+
+.form-section .form-inputs .form-title h3 span {
+    color: var(--white);
+}
+
+
+.form-section .form-inputs label {
+    font-weight: 600;
+    color:white;
+}
+
+.form-section .form-inputs label span {
+    color: red;
+}
+
+.form-section .form-inputs input {
+    width: 100%;
+    border: none;
+    background:white;
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+.form-section .form-inputs textarea {
+    width: 100%;
+    border: none;
+    background:white;
+
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+.form-section .form-inputs button {
+    width: 100%;
+    border: none;
+    padding: 3%;
+    color: var(--color);
+    border: 1px solid var(--color);
+    background: var(--white);
+    transition: 0.5s;
+}
+
+.form-section .form-inputs button:hover {
+    color: var(--white);
+    background: var(--yellow);
+}
+
+
+
+
+
+
+}
+
+@media screen and (min-width:769px) and (max-width:900px){
+
+    .addresssection{
+        padding-top:30px;
+        padding-bottom:10px;
+        align-items: center;
+        text-align: center;
+    }
+    .addresssection h2{
+        color: var(--yellow);
+        font-size:22px;
+        font-weight: 600;
+    
+    }
+    .addresssection h1{
+        color: var(--color);
+        font-size:28px;
+        font-weight: 600;
+    
+    }
+    .addresssection h1 span{
+        color:var(--yellow);
+    }
+
+    .addresssection2{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50px;
+        justify-content: space-evenly;
+        padding:4%;
+        width:100%;
+        height: auto;
+    }
+    
+    .card1 i{
+        color:var(--white);
+        font-size:35px;
+        margin-bottom:10px;
+        
+    }
+    
+    .card1{
+        padding:5%;
+        margin:0px;
+        background-color: var(--color);
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width:100%;
+        height:200px;
+        margin-bottom:30px;
+    
+    }
+    .card1 a{
+        text-decoration: none;
+        color:white;
+    }
+    .card1 h3{
+        font-size: 18px;
+        color: white;
+    
+    }
+    .card1 p{
+        font-size: 18px;
+        color: white;
+    
+    }
+    .cd-1{
+        background-color: var(--yellow);
+    }
+    
+    .card2{
+        padding: 80px;
+        margin: 20px;
+      
+        align-items: center;
+        text-align: center;
+      
+    
+    }
+    .card2 h3{
+        font-size: 18px;
+        color: white;
+    
+    }
+    .card2 p{
+        font-size: 18px;
+        color: white;
+    
+    }
+    
+    
+    .card3{
+        padding: 90px;
+        margin: 20px;
+        background-color: var(--color);
+        align-items: center;
+        text-align: center;
+       
+    
+    }
+    .card3 h3{
+        font-size: 18px;
+        color: white;
+    
+    }
+    .card3 p{
+        font-size: 18px;
+        color: white;
+    
+    }
+
+   
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 100%;
+    height:auto;
+    text-align: justify;
+    margin-bottom: 5%;
+    margin-top:4%;
+
+  
+}
+
+.form-section .form-address {
+    width:100%;
+    height:300px;
+    text-align: justify;
+}
+
+.get-details p {
+    color: var(--white);
+}
+
+
+.form-section .form-inputs {
+    width: 100%;
+    padding: 3%;
+    background-color:var(--color);
+    margin-top:20px;
+}
+
+.form-section .form-inputs .form-title h3 {
+    color: var(--white);
+    font-weight: bolder;
+}
+
+.form-section .form-inputs .form-title h3 span {
+    color: var(--white);
+}
+
+
+.form-section .form-inputs label {
+    font-weight: 600;
+    color:white;
+}
+
+.form-section .form-inputs label span {
+    color: red;
+}
+
+.form-section .form-inputs input {
+    width: 100%;
+    border: none;
+    background:white;
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+.form-section .form-inputs textarea {
+    width: 100%;
+    border: none;
+    background:white;
+
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+.form-section .form-inputs button {
+    width: 100%;
+    border: none;
+    padding: 3%;
+    color: var(--color);
+    border: 1px solid var(--color);
+    background: var(--white);
+    transition: 0.5s;
+}
+
+.form-section .form-inputs button:hover {
+    color: var(--white);
+    background: var(--yellow);
+}
+
+
+
+
+
+}
+
+@media screen and (min-width:769px) and (max-width:900px){
+
+  
+    .addresssection{
+        padding-top:30px;
+        padding-bottom:10px;
+        align-items: center;
+        text-align: center;
+    }
+    .addresssection h2{
+        color: var(--yellow);
+        font-size:22px;
+        font-weight: 600;
+    
+    }
+    .addresssection h1{
+        color: var(--color);
+        font-size:28px;
+        font-weight: 600;
+    
+    }
+    .addresssection h1 span{
+        color:var(--yellow);
+    }
+
+    .addresssection2{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50px;
+        justify-content: space-evenly;
+        padding:4%;
+        width:100%;
+        height: auto;
+    }
+    
+    .card1 i{
+        color:var(--white);
+        font-size:35px;
+        margin-bottom:10px;
+        
+    }
+    
+    .card1{
+        padding:5%;
+        margin:0px;
+        background-color: var(--color);
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width:100%;
+        height:200px;
+        margin-bottom:30px;
+    
+    }
+    .card1 a{
+        text-decoration: none;
+        color:white;
+    }
+    .card1 h3{
+        font-size: 18px;
+        color: white;
+    
+    }
+    .card1 p{
+        font-size: 18px;
+        color: white;
+    
+    }
+    .cd-1{
+        background-color: var(--yellow);
+    }
+    
+    .card2{
+        padding: 80px;
+        margin: 20px;
+      
+        align-items: center;
+        text-align: center;
+      
+    
+    }
+    .card2 h3{
+        font-size: 18px;
+        color: white;
+    
+    }
+    .card2 p{
+        font-size: 18px;
+        color: white;
+    
+    }
+    
+    
+    .card3{
+        padding: 90px;
+        margin: 20px;
+        background-color: var(--color);
+        align-items: center;
+        text-align: center;
+       
+    
+    }
+    .card3 h3{
+        font-size: 18px;
+        color: white;
+    
+    }
+    .card3 p{
+        font-size: 18px;
+        color: white;
+    
+    }
+
+   
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 100%;
+    height:auto;
+    text-align: justify;
+    margin-bottom: 5%;
+    margin-top:4%;
+
+  
+}
+
+.form-section .form-address {
+    width:100%;
+    height:300px;
+    text-align: justify;
+}
+
+.get-details p {
+    color: var(--white);
+}
+
+
+.form-section .form-inputs {
+    width: 100%;
+    padding: 3%;
+    background-color:var(--color);
+    margin-top:20px;
+}
+
+.form-section .form-inputs .form-title h3 {
+    color: var(--white);
+    font-weight: bolder;
+}
+
+.form-section .form-inputs .form-title h3 span {
+    color: var(--white);
+}
+
+
+.form-section .form-inputs label {
+    font-weight: 600;
+    color:white;
+}
+
+.form-section .form-inputs label span {
+    color: red;
+}
+
+.form-section .form-inputs input {
+    width: 100%;
+    border: none;
+    background:white;
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+.form-section .form-inputs textarea {
+    width: 100%;
+    border: none;
+    background:white;
+
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+.form-section .form-inputs button {
+    width: 100%;
+    border: none;
+    padding: 3%;
+    color: var(--color);
+    border: 1px solid var(--color);
+    background: var(--white);
+    transition: 0.5s;
+}
+
+.form-section .form-inputs button:hover {
+    color: var(--white);
+    background: var(--yellow);
+}
+
+
+
+
+
+
+}
+
+@media screen and (min-width:901px) and (max-width:992px){
+ 
+    
+    .addresssection{
+        padding-top:30px;
+        padding-bottom:10px;
+        align-items: center;
+        text-align: center;
+    }
+    .addresssection h2{
+        color: var(--yellow);
+        font-size:22px;
+        font-weight: 600;
+    
+    }
+    .addresssection h1{
+        color: var(--color);
+        font-size:28px;
+        font-weight: 600;
+    
+    }
+    .addresssection h1 span{
+        color:var(--yellow);
+    }
+
+    .addresssection2{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50px;
+        justify-content: space-evenly;
+        padding:4%;
+        width:100%;
+        height: auto;
+    }
+    
+    .card1 i{
+        color:var(--white);
+        font-size:35px;
+        margin-bottom:10px;
+        
+    }
+    
+    .card1{
+        padding:5%;
+        margin:0px;
+        background-color: var(--color);
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width:100%;
+        height:200px;
+        margin-bottom:30px;
+    
+    }
+    .card1 a{
+        text-decoration: none;
+        color:white;
+    }
+    .card1 h3{
+        font-size: 18px;
+        color: white;
+    
+    }
+    .card1 p{
+        font-size: 18px;
+        color: white;
+    
+    }
+    .cd-1{
+        background-color: var(--yellow);
+    }
+    
+    .card2{
+        padding: 80px;
+        margin: 20px;
+      
+        align-items: center;
+        text-align: center;
+      
+    
+    }
+    .card2 h3{
+        font-size: 18px;
+        color: white;
+    
+    }
+    .card2 p{
+        font-size: 18px;
+        color: white;
+    
+    }
+    
+    
+    .card3{
+        padding: 90px;
+        margin: 20px;
+        background-color: var(--color);
+        align-items: center;
+        text-align: center;
+       
+    
+    }
+    .card3 h3{
+        font-size: 18px;
+        color: white;
+    
+    }
+    .card3 p{
+        font-size: 18px;
+        color: white;
+    
+    }
+
+   
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 100%;
+    height:auto;
+    text-align: justify;
+    margin-bottom: 5%;
+    margin-top:4%;
+
+  
+}
+
+.form-section .form-address {
+    width:100%;
+    height:300px;
+    text-align: justify;
+}
+
+.get-details p {
+    color: var(--white);
+}
+
+
+.form-section .form-inputs {
+    width: 100%;
+    padding: 3%;
+    background-color:var(--color);
+    margin-top:20px;
+}
+
+.form-section .form-inputs .form-title h3 {
+    color: var(--white);
+    font-weight: bolder;
+}
+
+.form-section .form-inputs .form-title h3 span {
+    color: var(--white);
+}
+
+
+.form-section .form-inputs label {
+    font-weight: 600;
+    color:white;
+}
+
+.form-section .form-inputs label span {
+    color: red;
+}
+
+.form-section .form-inputs input {
+    width: 100%;
+    border: none;
+    background:white;
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+.form-section .form-inputs textarea {
+    width: 100%;
+    border: none;
+    background:white;
+
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+.form-section .form-inputs button {
+    width: 100%;
+    border: none;
+    padding: 3%;
+    color: var(--color);
+    border: 1px solid var(--color);
+    background: var(--white);
+    transition: 0.5s;
+}
+
+.form-section .form-inputs button:hover {
+    color: var(--white);
+    background: var(--yellow);
+}
+
+
+
+
+
+
+}
